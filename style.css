@@ -1,0 +1,486 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+  
+}
+header{
+    height:100vh;
+    background-image:linear-gradient(90deg, #ffffff 1%,  #a7a7a710  51.38%),url("assets/img/rectangle1.png"); 
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: 836px  836px;
+}
+
+ul{
+    list-style-type: none;
+    float:right;
+    margin-top:50px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    z-index: 1;
+    position:relative;
+    margin-right: 5%;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    font-family: 'Voga';
+    text-decoration: none;
+    color: #000000;
+    padding:5px 5px;
+}
+
+.logo img{
+    float: left;
+    width:200px;
+    height:70px;
+    margin-top:30px;
+    margin-left: 5%;
+}
+
+.main{
+    max-width: 2000px;
+    padding: 0px 50px;
+    margin:auto;
+    height: 100px;
+    width: 100%;
+    background-image:linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
+    z-index: 1;
+    position:relative;
+}
+
+.home{
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 10%;
+    width: 900px;
+    height: 184px;
+    justify-content:left;
+}
+
+.home h1{
+    font-family: 'Italiana';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 78px;
+    line-height: 92px;
+    align-items: center;
+    width:407px;
+}
+
+.home p{
+    font-family: 'Jomolhari';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 117.09%;
+    width: 340px;
+    height: 76px;
+    margin: 20px 0px;
+}
+
+.about{
+    width:100%;
+    height:90vh;
+    box-sizing: border-box;
+    background: #a7a7a710;
+}
+
+.about h2{
+    width: 174px;
+    height: 150px;
+    font-family: 'Great Vibes';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    position:absolute;
+    margin-top: 10%;
+    margin-left:10%;
+}
+
+.about p{
+    width: 363px;
+    height: 80px;
+    position:absolute;
+    margin-top: 22%;
+    margin-left:10%;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: rgba(13, 13, 13, 0.7);
+}
+
+.about button{
+    position:absolute;
+    margin-top: 30%;
+    padding: 5px 20px;
+    background: #73574D;
+    border-radius: 6px 0px;
+    position: static;
+    width: 150px;
+    height: 29px;
+    margin-left:10%;
+    color: #ffffff;
+    font-family: 'Voga';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 19px;
+    border:0;
+}
+.ab-img{
+    position:absolute;
+    width:50%;
+    margin-left: 45%;
+    margin-top:5%;
+    box-sizing: border-box;
+}
+
+.ab-img img{
+    width:100%;
+    
+}
+/* .img1{
+    width: 224px;
+    height: 149px;
+    margin-right: 20px;
+    border-radius: 20px 0px;
+    
+}
+.img2{
+    width: 150px;
+    height: 157px;
+    margin-right: 20px;
+border-radius: 20px 0px;
+}
+.img3{
+margin-top:5%;
+width: 167px;
+height: 191px;
+margin-right: 5px;
+border-radius: 20px 0px;
+}
+.img4{
+width: 142px;
+height: 212px;
+margin-right: 20px;
+border-radius: 20px 0px;
+}
+.img5{
+    width: 190px;
+    height: 283px;
+    margin-right: 20px;
+    border-radius: 20px 0px;
+}
+.img6{
+    width: 186px;
+    height: 252px;
+    margin-right: 20px;
+    border-radius: 20px 0px;
+}  */
+.product{
+    width:100%;
+    height:100vh;
+    padding-top:5%;
+    background: #a7a7a710;
+}
+
+.product h2{
+    width: 128px;
+    height: 38px;
+    font-family: 'Italiana';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 38px;
+    color: #0D0D0D;
+}
+
+.pro-img{
+    width:20%;
+    margin-top:2%;
+    margin-left:5%;
+    display:flex;
+}
+ 
+.pro-img img{
+    width: 90%;
+
+}
+.tradition{
+    width:100%;
+    padding:1%;  
+    background: #a7a7a710;
+}
+.tradition .block .tr-img{
+    width:276px;
+    height:347px;
+    margin-left:15%;
+}
+
+.tradition .block .lec{
+    margin-top:5%;
+    margin-left:20%;
+}
+
+.tradition .block .lec h2{
+    width: 157px;
+    height: 96px;
+    font-family: 'Cinzel Decorative';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    margin-top: 15%;
+    text-transform: uppercase;
+}
+
+.tradition .block .lec p{
+    width: 363px;
+    height: 92px;
+    font-family: 'Ibarra Real Nova';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+}
+.tradition .block .lec .lec-button{
+    margin-top:1%;
+    width: 48%;
+    height: 29px;
+    background: #F2D1B3;
+    border-radius: 6px 0px;
+    border:0;
+    font-family: 'Voga';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 19px;
+    text-transform: uppercase;
+}
+
+.block{
+    width:100%;
+    height:90vh;
+    display: flex;
+    background: #73574D;
+    color: #fff;
+    padding:5%;
+    border-radius: 10px 35px 0px;
+}
+.services{
+    width:100%;
+    padding:10%;
+    background: #a7a7a710;
+}
+.heading p{
+    font-family: 'Cinzel Decorative';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    color: #73574D;
+    text-transform: uppercase;
+    margin-bottom: 4px;
+}
+
+.heading h5{
+    font-family: 'Cinzel Decorative';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    color: #000000;
+    text-transform: uppercase;
+    margin-bottom: 2%;
+}
+.services .row1{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+.text{
+    display:flex;
+}
+
+.services .row1 .card1{
+    margin-top:5%;
+    border:1px solid #F2D1B3;
+    margin-left:2%;
+    padding:2%;
+    height:300px;
+    border-radius: 0px 20px;
+}
+
+.services .row1 .card1 h5{
+    width: 200px;
+    height: 76px;
+    margin-left:5%;
+    font-family: 'Great Vibes';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 38px;
+    color: #73574D;
+    margin-bottom: 10%;
+   
+}
+.services .row1 .card1 img{
+    width:40px;
+    height:37px;
+}
+
+.services .row1 .card1 p{
+    width: 264px;
+    height: 138px;
+    font-family: 'Ibarra Real Nova';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.card1 a{
+    color: #73574D;
+    text-decoration: none;
+}
+
+.selling{
+    width:100%;
+    background: #a7a7a710;
+    padding:1%;
+}
+
+footer{
+    width: 100%;
+    padding: 5%;
+    background: #a7a7a710;
+}
+footer .row2{
+    display: flex;
+    border-bottom: 2px solid #ffffff31;
+    width:90%;
+    height:60%;
+}
+
+footer .row2 .card2{
+    width: 350px;
+    height: 50px;
+   
+
+}
+footer .row2 .card2 h3{
+    font-family: 'Cinzel Decorative';
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: bold;
+    color: #F2D1B3;
+    margin-bottom: 15%;
+
+}
+footer .row2 .card2 p {
+    font-family: Ibarra Real Nova;
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: normal;
+    color: #FFFFFF;
+    margin-bottom: 6%;
+
+}
+footer .row2 .card2 .form input
+{   
+    
+    height: 40px;
+    width: 60%;
+    border-radius: 20px;
+    padding: 5%;
+    background-color: #73574D;
+    border: 2px solid #F2D1B3;
+} 
+footer .row2 .card2 .form input::placeholder
+{
+    color: #ffffff59;
+    font-family: 'Ibarra Real Nova';
+    font-size: 14px;
+}
+
+
+footer .row2 .card2 .form button
+{
+    margin-left: 5%;
+    padding:5px, 20px, 5px, 20px;
+    height: 39px;
+    width: 81px;
+    border-radius: 8px 0px;
+    background-color: #F2D1B3;
+    font-family: 'Voga';
+    font-family: Voga;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 19px;
+    border: none;
+
+}
+
+.left
+{
+    margin-left: 10%;
+
+}
+.left1{
+    margin-left:15%;
+}
+
+.card2 a{
+    color:#F2D1B3;
+    font-size: 25px;
+}
+footer .row3{
+    width:90%;
+    display:flex;
+    margin-top:5%;
+    
+}
+
+footer .row3 .card2 h3{
+    font-family: 'Cinzel Decorative';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+footer .row3 .card2 ul{
+    width:100%;
+    padding-left: 0rem;
+    height: 30%;
+}
+
+footer .row3 .card2 li{
+    display:block;
+    justify-content:left;
+    width:100%;
+    height: 30%;
+
+}
+
+footer .row3 .card2 li a{
+    font-family: 'Ibarra Real Nova';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
